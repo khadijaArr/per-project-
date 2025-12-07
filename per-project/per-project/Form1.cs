@@ -1,4 +1,12 @@
-﻿using System;
+﻿/////////////////////////////
+///
+/// abc defg 
+///////////////////////////
+
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +26,11 @@ namespace per_project
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }
