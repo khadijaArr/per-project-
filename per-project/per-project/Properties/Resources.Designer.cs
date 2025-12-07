@@ -79,5 +79,25 @@ namespace per_project.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Chanel_Perfume_PNG_Cutout {
+            get {
+                object obj = ResourceManager.GetObject("Chanel-Perfume-PNG-Cutout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2025_12_07_16_20_52 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2025-12-07_16-20-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
