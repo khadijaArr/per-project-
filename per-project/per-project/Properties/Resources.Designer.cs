@@ -93,9 +93,69 @@ namespace per_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Chanel_Perfume_PNG_Cutout1 {
+            get {
+                object obj = ResourceManager.GetObject("Chanel-Perfume-PNG-Cutout1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dior_miss_dior_edt_kadin_parfum_100ml_143680_28_Bp_imgupscaler_ai_Beta_2K5j {
+            get {
+                object obj = ResourceManager.GetObject("dior-miss-dior-edt-kadin-parfum-100ml-143680-28-Bp_imgupscaler.ai_Beta_2K5j", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebook_and_instagram_icon_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("facebook-and-instagram-icon-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic {
+            get {
+                object obj = ResourceManager.GetObject("ic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2025_12_07_16_20_52 {
             get {
                 object obj = ResourceManager.GetObject("photo_2025-12-07_16-20-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pink_background {
+            get {
+                object obj = ResourceManager.GetObject("Pink background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Basic_Rounded_Filled_icon___Freepik {
+            get {
+                object obj = ResourceManager.GetObject("User Basic Rounded Filled icon _ Freepik", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

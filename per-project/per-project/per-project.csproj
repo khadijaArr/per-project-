@@ -95,5 +95,23 @@
   <ItemGroup>
     <None Include="image1\Chanel-Perfume-PNG-Cutout.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chanel-Perfume-PNG-Cutout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dior-miss-dior-edt-kadin-parfum-100ml-143680-28-Bp_imgupscaler.ai_Beta_2K5j.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Basic Rounded Filled icon _ Freepik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-and-instagram-icon-free-vector.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
