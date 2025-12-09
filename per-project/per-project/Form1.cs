@@ -37,8 +37,6 @@ namespace per_project
 
         private void label6_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            form.ShowDialog();
         }
     }
 }
