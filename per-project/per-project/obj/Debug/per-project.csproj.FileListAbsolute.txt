@@ -23,3 +23,16 @@ C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.c
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.csproj.CoreCompileInputs.cache
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.exe
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.pdb
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.csproj.AssemblyReference.cache
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.exe.config
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form1.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form2.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form3.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.csproj.GenerateResource.cache
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.exe
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.pdb
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\bin\Debug\per-project.exe.config
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\bin\Debug\per-project.exe
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\bin\Debug\per-project.pdb
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Properties.Resources.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.csproj.CoreCompileInputs.cache

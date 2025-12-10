@@ -228,5 +228,10 @@ namespace per_project
                 MessageBox.Show("The User name or Password is incorrect ", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

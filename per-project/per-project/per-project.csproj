@@ -64,6 +64,24 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +92,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -154,6 +181,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\w2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\chanel-perfume-11550716800u4ls6wy9cr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\The 3 Valentino Perfumes the Internet Is Obsessed Withi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\download %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\p7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\pm6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\mar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1\kj.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
