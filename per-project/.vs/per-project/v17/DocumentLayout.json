@@ -3,56 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|c:\\users\\maisan\\desktop\\per-project-\\per-project\\per-project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,50 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form2.cs",
-              "RelativeDocumentMoniker": "per-project\\Form2.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form2.cs",
-              "RelativeToolTip": "per-project\\Form2.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAA9wNkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:34:31.312Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form4.cs",
-              "RelativeDocumentMoniker": "per-project\\Form4.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form4.cs",
-              "RelativeToolTip": "per-project\\Form4.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:01:24.502Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Class1.cs",
-              "RelativeDocumentMoniker": "per-project\\Class1.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Class1.cs",
-              "RelativeToolTip": "per-project\\Class1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:44:16.876Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -125,115 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form1.cs",
-              "RelativeDocumentMoniker": "per-project\\Form1.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form1.cs [Design]",
-              "RelativeToolTip": "per-project\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:34:14.462Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form4.cs",
-              "RelativeDocumentMoniker": "per-project\\Form4.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form4.cs [Design]",
-              "RelativeToolTip": "per-project\\Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:30:03.283Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form3.cs",
-              "RelativeDocumentMoniker": "per-project\\Form3.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form3.cs [Design]",
-              "RelativeToolTip": "per-project\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:26:44.505Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form2.cs",
-              "RelativeDocumentMoniker": "per-project\\Form2.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form2.cs [Design]",
-              "RelativeToolTip": "per-project\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:25:48.629Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form5.cs",
-              "RelativeDocumentMoniker": "per-project\\Form5.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form5.cs",
-              "RelativeToolTip": "per-project\\Form5.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAswMMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:25:17.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form5.cs",
-              "RelativeDocumentMoniker": "per-project\\Form5.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form5.cs [Design]",
-              "RelativeToolTip": "per-project\\Form5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:25:15.197Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form6.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs",
-              "RelativeDocumentMoniker": "per-project\\Form6.cs",
-              "ToolTip": "C:\\Users\\\u0627\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\\u0627\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:24:57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form3.cs",
-              "RelativeDocumentMoniker": "per-project\\Form3.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form3.cs",
-              "RelativeToolTip": "per-project\\Form3.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAA7wK4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T14:28:39.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form6.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs",
-              "RelativeDocumentMoniker": "per-project\\Form6.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs",
-              "RelativeToolTip": "per-project\\Form6.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAswFEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:28:29.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Program.cs",
               "RelativeDocumentMoniker": "per-project\\Program.cs",
@@ -241,7 +42,8 @@
               "RelativeToolTip": "per-project\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:24:28.996Z"
+              "WhenOpened": "2025-12-11T15:24:28.996Z",
+              "EditorCaption": ""
             }
           ]
         }
