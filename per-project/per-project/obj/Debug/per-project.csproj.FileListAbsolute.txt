@@ -39,3 +39,6 @@ C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.c
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.csproj.CoreCompileInputs.cache
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.exe
 C:\Users\ا\Desktop\per-project-\per-project\per-project\obj\Debug\per-project.pdb
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form4.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form5.resources
+C:\Users\MaiSan\Desktop\per-project-\per-project\per-project\obj\Debug\per_project.Form6.resources
