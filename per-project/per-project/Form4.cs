@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static per_project.Class1;
 
 namespace per_project
 {
@@ -15,6 +16,38 @@ namespace per_project
         public Form4()
         {
             InitializeComponent();
+            List<CartItem> products = new List<CartItem>();
+            products.Add(new CartItem(9, "XXX", "name dior ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm3.png"));
+            products.Add(new CartItem(10, "XXX", "name  chneel ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
+            products.Add(new CartItem(11, "XXX", "name dior lly  ", 88, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm1.png"));
+           
+
+
+            //each panel taks a project 
+            pictureBox2.Tag = products[0]; // first product
+            pictureBox1.Tag = products[1]; // second product
+            pictureBox4.Tag = products[2];
+            
+
+            // add click event for each panel
+            pictureBox2.Click += PictureBox_Click;
+            pictureBox1.Click += PictureBox_Click;
+            pictureBox4.Click += PictureBox_Click;
+            
+        }
+
+        private void PictureBox_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedImage = sender as PictureBox;
+           this.Hide();
+            if (clickedImage?.Tag is CartItem item)
+            {
+                Form5 f = new Form5(item);
+                f.ShowDialog();
+                
+
+
+            }
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -29,7 +62,10 @@ namespace per_project
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (comboBox3.SelectedIndex == 1) {
+                Forms.F3.Show();
+                this.Hide();
+            }
         }
 
         private void label24_Click(object sender, EventArgs e)
@@ -230,6 +266,59 @@ namespace per_project
         private void pictureBox10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+            //woman word 
+
+            Forms.F3.Show();
+            this.Hide();
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+            //man word 
+
+            Forms.F4.Show();
+            this.Hide();
+        }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+            // main button 
+            Forms.F2.Show();
+            this.Hide();
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+            Forms.F1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            // card picture 
+            Forms.F6.Show();
+            this.Hide();
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+            // Best seller 
+            Forms.F2.Show();     // show Form1
+            this.Hide();   // hide this form
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            
         }
     }
 }

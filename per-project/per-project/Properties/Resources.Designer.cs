@@ -93,6 +93,16 @@ namespace per_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_610187613_n52cCzxDnzgBUKZ2O8f6EMQpKuUdb2Ek {
+            get {
+                object obj = ResourceManager.GetObject("360_F_610187613_n52cCzxDnzgBUKZ2O8f6EMQpKuUdb2Ek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3c {
             get {
                 object obj = ResourceManager.GetObject("3c", resourceCulture);
@@ -133,9 +143,29 @@ namespace per_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8220027 {
+            get {
+                object obj = ResourceManager.GetObject("8220027", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _88U {
             get {
                 object obj = ResourceManager.GetObject("88U", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _true {
+            get {
+                object obj = ResourceManager.GetObject("true", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
