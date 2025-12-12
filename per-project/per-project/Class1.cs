@@ -43,10 +43,10 @@ namespace per_project
 
         public CartItem() { }
         // contains : items , constructer , check imge function 
-        public CartItem(int id, string details, string name, decimal unitPrice, int quantity, string imagePath)
+        public CartItem(int id, string d, string name, decimal unitPrice, int quantity, string imagePath)
         {
             Id = id;
-            details = details ?? "";
+            details = d ;
             Name = name;
             UnitPrice = unitPrice;
             Quantity = quantity;

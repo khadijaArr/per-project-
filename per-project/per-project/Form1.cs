@@ -192,7 +192,7 @@ namespace per_project
         private void pictureBox5_Click_1(object sender, EventArgs e)
         {
             timer2.Start();
-            MessageBox.Show("click1", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
 
         }
 

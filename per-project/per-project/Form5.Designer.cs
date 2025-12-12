@@ -211,14 +211,15 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            this.label3.AccessibleDescription = "";
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(468, 220);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 60);
+            this.label3.Size = new System.Drawing.Size(393, 60);
             this.label3.TabIndex = 128;
-            this.label3.Text = "----------------------\r\n----------------\r\n----------";
+            this.label3.Text = " a  b  c ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 

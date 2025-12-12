@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static per_project.Class1;
 
 namespace per_project
 {
+
 
 
     public partial class Form5 : Form
@@ -21,11 +23,12 @@ namespace per_project
         public Form5()
         {
             InitializeComponent();
+
+            
+            
+
+
         }
-
-
-
-
 
         // recueve item to put info : 
         public Form5(CartItem item)
@@ -240,6 +243,11 @@ namespace per_project
             this.Hide();   // hide this form
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }
 

@@ -4,12 +4,16 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using per_project.Properties;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 using static per_project.Class1;
 
 namespace per_project
@@ -27,11 +31,19 @@ namespace per_project
             this.AutoScrollPosition = new Point(0, label5.Top);
 
             
-            List<CartItem> products = new List<CartItem>();
-            products.Add(new CartItem(1, "XXX", "name dior ", 25 , 0 , @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png") );
-            products.Add(new CartItem(2, "XXX", "name  chneel ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
-            products.Add(new CartItem(3, "XXX", "name dior lly  ", 88, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
-            products.Add(new CartItem(4, "XXX", "name dior lly  ", 77, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\2.png"));
+             products = new List<CartItem>();
+            products.Add(new CartItem(1, "A fresh and elegant feminine perfume with light citrus notes and a warm, classy finish.Suitable for daily use and special occasions.", "ChanelCoco Mademoiselle ",520, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png"));
+            products.Add(new CartItem(10, "A refined and elegant fragrance with citrus, wood, and incense notes.Clean, sophisticated, and suitable for professional or formal settings.", "Bleu de Chanel Eau de Parfum", 650, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
+            products.Add(new CartItem(7, "A warm, sweet, and masculine fragrance with vanilla and  amber notes.Perfect for evening wear and confident men who love long - lasting scents.",  "Emporio Armani Stronger With You Intensely ", 430, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
+            products.Add(new CartItem(4,"lasting and ideal for a stylish, confident look.", "Valentino Donna Born in Roma", 470, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\2.png"));
+            //////////
+
+
+
+            //products.Add(new CartItem(1, "XXX", "name dior ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png"));
+            //products.Add(new CartItem(2, "XXX", "name  chneel ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
+            //products.Add(new CartItem(3, "XXX", "name dior lly  ", 88, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
+            //products.Add(new CartItem(4, "XXX", "name dior lly  ", 77, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\2.png"));
 
 
             //each panel taks a project 
