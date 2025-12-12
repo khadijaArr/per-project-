@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|c:\\users\\maisan\\desktop\\per-project-\\per-project\\per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|c:\\users\\maisan\\desktop\\per-project-\\per-project\\per-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB1BCD7D-C7CA-4FDA-8E93-2426B487A81C}|per-project\\per-project.csproj|solutionrelative:per-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +38,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Program.cs",
-              "RelativeDocumentMoniker": "per-project\\Program.cs",
-              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Program.cs",
-              "RelativeToolTip": "per-project\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAkAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form1.cs",
+              "RelativeDocumentMoniker": "per-project\\Form1.cs",
+              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form1.cs [Design]",
+              "RelativeToolTip": "per-project\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T15:24:28.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:46:33.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs",
+              "RelativeDocumentMoniker": "per-project\\Form6.cs",
+              "ToolTip": "C:\\Users\\MaiSan\\Desktop\\per-project-\\per-project\\per-project\\Form6.cs [Design]",
+              "RelativeToolTip": "per-project\\Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:02:30.077Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
