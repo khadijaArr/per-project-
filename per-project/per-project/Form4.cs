@@ -288,6 +288,7 @@ namespace per_project
         {
             // main button 
             Forms.F2.Show();
+            Forms.F2.ScrollToTop();
             this.Hide();
         }
 

@@ -16,8 +16,23 @@ namespace per_project
         public Form6()
         {
             InitializeComponent();
+            //When the cart changes, call my function named CartManager_CartChanged
             CartManager.CartChanged += CartManager_CartChanged;
         }
+
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            RefreshCartUI();
+            // fixing not seei the panel issue 
+            panel5.AutoScroll = true;
+            panel5.SuspendLayout();
+            RefreshCartUI(); // or in RefreshCartUI call Suspend/Resume
+            panel5.ResumeLayout();
+
+        }
+
+
 
         private void CartManager_CartChanged(object sender, EventArgs e)
         {
@@ -267,16 +282,7 @@ namespace per_project
 
         }
 
-        private void Form6_Load(object sender, EventArgs e)
-        {
-            RefreshCartUI();
-            // fixing not seei the panel issue 
-            panel5.AutoScroll = true;
-            panel5.SuspendLayout();
-            RefreshCartUI(); // or in RefreshCartUI call Suspend/Resume
-            panel5.ResumeLayout();
-
-        }
+       
 
         private void label23_Click(object sender, EventArgs e)
         {
@@ -308,6 +314,7 @@ namespace per_project
         {
             // main button 
             Forms.F2.Show();
+            Forms.F2.ScrollToTop();
             this.Hide();
         }
 

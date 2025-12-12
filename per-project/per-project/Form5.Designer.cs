@@ -191,9 +191,9 @@
             this.label1.Location = new System.Drawing.Point(464, 144);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 29);
+            this.label1.Size = new System.Drawing.Size(184, 29);
             this.label1.TabIndex = 126;
-            this.label1.Text = "Dior J’adore";
+            this.label1.Text = "-------------------";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -204,9 +204,9 @@
             this.label2.Location = new System.Drawing.Point(468, 184);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 20);
+            this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 127;
-            this.label2.Text = "520 LYD";
+            this.label2.Text = "--- LYD";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -216,10 +216,9 @@
             this.label3.Location = new System.Drawing.Point(468, 220);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(358, 60);
+            this.label3.Size = new System.Drawing.Size(141, 60);
             this.label3.TabIndex = 128;
-            this.label3.Text = "A soft floral scent with a luxurious touch\r\nFeatures jasmine and ylang-ylang for " +
-    "a smooth\r\nfeminine aroma that lasts all day";
+            this.label3.Text = "----------------------\r\n----------------\r\n----------";
             // 
             // button1
             // 
@@ -303,7 +302,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::per_project.Properties.Resources.p61;
             this.pictureBox1.Location = new System.Drawing.Point(64, 130);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
@@ -358,6 +356,7 @@
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static per_project.Class1;
 
 namespace per_project
@@ -77,6 +78,39 @@ namespace per_project
             panel2.Height = 0;
         }
 
+
+        //check if loged in 
+        public bool IsLoggedIn
+        {
+            get
+            {
+                // check if the login info is correct
+                return textBox1.Text == "username" && textBox2.Text == "password";
+            }
+        }
+
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+            // check the password logic 
+            if (textBox1.Text == "username" && textBox2.Text == "password")
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+            }
+            else if (textBox1.Text == "" || textBox2.Text != "")
+            {
+                MessageBox.Show("Enter User name and The Password ", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (textBox1.Text != "xxx" || textBox2.Text != "123")
+            {
+                MessageBox.Show("The User name or Password is incorrect ", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -99,9 +133,11 @@ namespace per_project
 
         }
         
+
        
         private void button1_Click(object sender, EventArgs e)
         {
+            //back button 
             //for height animation 
             timer.Start();
 
@@ -134,26 +170,7 @@ namespace per_project
 
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-            // check the password logic 
-            if (textBox1.Text == "xxx" && textBox2.Text == "123")
-            {
-                Form2 form2 = new Form2();
-                form2.Show();
-                this.Hide();
-            }
-            else if (textBox1.Text == "" || textBox2.Text != "")
-            {
-                MessageBox.Show("Enter User name and The Password ", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (textBox1.Text != "xxx" || textBox2.Text != "123")
-            {
-                MessageBox.Show("The User name or Password is incorrect ", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
+       
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -168,15 +185,15 @@ namespace per_project
             this.Hide();
         }
 
-       
 
-      
+
+
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
         {
             timer2.Start();
             MessageBox.Show("click1", "Title", MessageBoxButtons.OK, MessageBoxIcon.Information);
-          
+
         }
 
         private void label7_Click_2(object sender, EventArgs e)

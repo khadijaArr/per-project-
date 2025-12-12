@@ -9,6 +9,9 @@ using System.Linq;
 
 namespace per_project
 {
+
+
+    // 
     internal class Class1
     {
         //
@@ -28,9 +31,18 @@ namespace per_project
     // CartItem class (used both as "product template" and as an item in the cart)
     public class CartItem
     {
-        
-        public CartItem() { }
+         public int Id { get; set; }
+        public string details { get; set; }
+        public string Name { get; set; }
+        public decimal UnitPrice { get; set; }
+        public int Quantity { get; set; }
+        public string ImagePath { get; set; }
+        public string Size { get; set; }
+        public Image Image { get; set; }
+        public decimal SubTotal => UnitPrice * Quantity;
 
+        public CartItem() { }
+        // contains : items , constructer , check imge function 
         public CartItem(int id, string details, string name, decimal unitPrice, int quantity, string imagePath)
         {
             Id = id;
@@ -44,16 +56,7 @@ namespace per_project
             Image = LoadImageSafe(imagePath);
         }
 
-        public int Id { get; set; }
-        public string details { get; set; }
-        public string Name { get; set; }
-        public decimal UnitPrice { get; set; }
-        public int Quantity { get; set; }
-        public string ImagePath { get; set; }
-        public string Size { get; set; }
-        public Image Image { get; set; }
-        public decimal SubTotal => UnitPrice * Quantity;
-
+       
         // Utility: load an image from file or from resources (best-effort)
         public static Image LoadImageSafe(string pathOrResource)
         {
@@ -70,11 +73,11 @@ namespace per_project
             }
             catch
             {
-                // ignore and try resources
+               
             }
 
             // 2) Try to load from project resources by name
-            // pathOrResource might look like "Resources\\4.png" or "...\\Resources\\4.png" or "4.png"
+            
             try
             {
                 // get just filename without extension
@@ -87,10 +90,10 @@ namespace per_project
             }
             catch
             {
-                // ignore
+               
             }
 
-            // 3) Fallback null
+           
             return null;
         }
     }

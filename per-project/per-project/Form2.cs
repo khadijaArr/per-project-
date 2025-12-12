@@ -18,32 +18,15 @@ namespace per_project
     {
 
 
-
-
-
-
-
-
-
-
-
-
-
         // list of the product  ( list all ur product info here )
         private List<CartItem> products;
 
         public Form2()
         {
             InitializeComponent();
+            this.AutoScrollPosition = new Point(0, label5.Top);
 
-            // crete objects from the list type class 
-            //products = new List<CartItem>
-
-            //{
-            //new CartItem { Id=1, Name="Perfume A", UnitPrice=15.5m, ImagePath=@"per_project.Properties.Resources._4", details="Description A" },
-            //new CartItem { Id=2, Name="Perfume B", UnitPrice=20m, ImagePath=@"per_project.Properties.Resources._5", details="Description B" },
-            //new CartItem { Id=2, Name="Perfume c", UnitPrice=800m, ImagePath=@"C:\Users\ا\Desktop\WindowsFormsApp1\Resources\wallapaper.jpg", details="Description c" }
-            //  // Add more products here
+            
             List<CartItem> products = new List<CartItem>();
             products.Add(new CartItem(1, "XXX", "name dior ", 25 , 0 , @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png") );
             products.Add(new CartItem(2, "XXX", "name  chneel ", 25, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
@@ -66,11 +49,6 @@ namespace per_project
             }
         
 
-
-       // private CartItem currentItem;
-
-       
-
         private void PictureBox_Click(object sender, EventArgs e)
         {
             PictureBox clickedImage = sender as PictureBox;
@@ -85,6 +63,8 @@ namespace per_project
             }
         }
 
+
+      
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -132,28 +112,35 @@ namespace per_project
 
         }
 
-        //private void InitializeComponent()
-        //{
-        //    this.SuspendLayout();
-        //    // 
-        //    // Form2
-        //    // 
-        //    this.ClientSize = new System.Drawing.Size(282, 253);
-        //    this.Name = "Form2";
-        //    this.Load += new System.EventHandler(this.Form2_Load);
-        //    this.ResumeLayout(false);
-
-        //}
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            this.Location = new Point(0, 0);
-        }
+       
 
         private void Form2_Load_1(object sender, EventArgs e)
         {
 
+            this.BeginInvoke((MethodInvoker)(() =>
+            {
+                this.AutoScrollPosition = new Point(0, 0);
+
+            }));
         }
+
+     
+
+        public void ScrollToTop()
+        {
+            this.BeginInvoke((MethodInvoker)(() =>
+            {
+                this.AutoScrollPosition = new Point(0, 0);
+               
+            }));
+        }
+
+
+
+
+
+
+
 
         private void label14_Click(object sender, EventArgs e)
         {

@@ -141,6 +141,9 @@ namespace per_project
         {
             // main button 
             Forms.F2.Show();
+            Forms.F2.ScrollToTop();
+            this.Hide();
+
             this.Hide();
         }
 
@@ -171,6 +174,11 @@ namespace per_project
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
         {
 
         }

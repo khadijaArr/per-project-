@@ -22,6 +22,12 @@ namespace per_project
         {
             InitializeComponent();
         }
+
+
+
+
+
+        // recueve item to put info : 
         public Form5(CartItem item)
         {
             InitializeComponent();
@@ -44,47 +50,140 @@ namespace per_project
             // default quantity
             numericUpDown1.Value = productTemplate.Quantity > 0 ? productTemplate.Quantity : 1;
 
-            // set size buttons initial state (if you use toggle visual, handle)
-            // assuming button4=30ml, button5=50ml, button6=100ml
-            // We'll set a default size:
-            SetSelectedSize("30ml");
-            //new end
+
         }
-        private string selectedSize = "30ml";
+        private string selectedSize = null;
         private void SetSelectedSize(string size)
         {
             selectedSize = size;
-            // Optionally update button styles to show which is selected
-            // e.g. button4.BackColor = (size == "30ml") ? Color.LightBlue : SystemColors.Control;
-            // implement if you want visual feedback
+
         }
+
+
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // ADD to card button : 
+            // check log in 
+            if (!Forms.F1.IsLoggedIn)
+            {
+                MessageBox.Show("You must log in first!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // stop here
+            }
+
+
+            if (selectedSize != null)
+            {// if one of size is being clicked ;
+                int qty = (int)numericUpDown1.Value;
+                if (qty <= 0)
+                {
+                    MessageBox.Show("Please select a valid quantity.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                // Create a new CartItem instance representing the cart entry ( fill the constructer) 
+                CartItem cartEntry = new CartItem(
+                    productTemplate.Id,
+                    productTemplate.details,
+                    productTemplate.Name,
+                    productTemplate.UnitPrice,
+                    qty,
+                    productTemplate.ImagePath
+                    );
+                cartEntry.Size = selectedSize;
+
+                // ensure Image is cached
+                cartEntry.Image = productTemplate.Image ?? CartItem.LoadImageSafe(productTemplate.ImagePath);
+
+                // Add to central cart
+                CartManager.AddItem(cartEntry);
+
+                // Optional: show small confirmation
+                MessageBox.Show("Added to cart.", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            else
+            {
+                MessageBox.Show(" Choose a size please ", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
+        }
+
+
+
+        // update the price epents on the size 
+        private void UpdatePrice(string size)
+        {
+            decimal newPrice = productTemplate.UnitPrice; // start from base price
+
+            // Adjust price depending on size
+            switch (size)
+            {
+                case "30ml":
+                    // maybe base price, no change
+                    break;
+                case "50ml":
+                    newPrice += 50;  // add 5 LYD for 50ml
+                    break;
+                case "100ml":
+                    newPrice += 100; // add 10 LYD for 100ml
+                    break;
+            }
+
+            // Update the label
+            label2.Text = newPrice.ToString("0.00");
+        }
+
+
+
+
+
+
+
+
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SetSelectedSize("30ml");
+            UpdatePrice("30ml");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SetSelectedSize("50ml");
+            UpdatePrice("50ml");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SetSelectedSize("100ml");
+            UpdatePrice("100ml");
+        }
+
+
+
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+            Forms.F4.Show();
+            this.Hide();
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
 
         private void LoadItem()
         {
 
-            //its muted in new 
-
-            //label1.Text = _item.Name;
-            //label2.Text = _item.UnitPrice.ToString("0.00") + " LYD";
-            //label3.Text = _item.details;
-            //pictureBox1.ImageLocation = _item.ImagePath;
-            //pictureBox1.Image = Image.FromFile(_item.ImagePath);
-
-
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -116,6 +215,7 @@ namespace per_project
         {
             // main button 
             Forms.F2.Show();
+            Forms.F2.ScrollToTop();
             this.Hide();
         }
 
@@ -140,65 +240,8 @@ namespace per_project
             this.Hide();   // hide this form
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            SetSelectedSize("30ml");
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            SetSelectedSize("50ml");
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            SetSelectedSize("100ml");
-        }
-
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //new 
-            int qty = (int)numericUpDown1.Value;
-            if (qty <= 0)
-            {
-                MessageBox.Show("Please select a valid quantity.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
-            }
-
-            // Create a new CartItem instance representing the cart entry
-            CartItem cartEntry = new CartItem(
-                productTemplate.Id,
-                productTemplate.details,
-                productTemplate.Name,
-                productTemplate.UnitPrice,
-                qty,
-                productTemplate.ImagePath
-                );
-            cartEntry.Size = selectedSize;
-
-            // ensure Image is cached
-            cartEntry.Image = productTemplate.Image ?? CartItem.LoadImageSafe(productTemplate.ImagePath);
-
-            // Add to central cart
-            CartManager.AddItem(cartEntry);
-
-            // Optional: show small confirmation
-            MessageBox.Show("Added to cart.", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // Close or hide detail form and return to previous form if desired:
-            // you used ShowDialog when opening from Form2; closing is fine for that flow
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-            Forms.F4.Show();
-            this.Hide();
-        }
     }
-    }
-
+}
 
 
 
