@@ -216,5 +216,10 @@ namespace per_project
             Forms.F4.Show();
             this.Hide();
         }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
