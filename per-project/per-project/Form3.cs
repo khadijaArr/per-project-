@@ -39,14 +39,15 @@ namespace per_project
             //products.Add(new CartItem(7, "XXX", "name dior lly  ", 88, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p1.jpg"));
             //products.Add(new CartItem(8, "XXX", "Kai ly  ", 77, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p5.png"));
 
-            products.Add(new CartItem(1, "A fresh and elegant feminine perfume with light citrus notes and a warm, classy finish.Suitable for daily use and special occasions.", "ChanelCoco Mademoiselle ",520, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p2.jpg")); 
-products.Add(new CartItem(2, "A soft floral scent with a luxurious touch. Features jasmine and ylang - ylang for a smooth, feminine aroma that lasts all day.", ".DiorJ’adore ", 580, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p4.png")); 
-products.Add(new CartItem(3, "A sweet and floral fragrance with gardenia and pear blossom.Light, youthful, and perfect for everyday wear.", "Gucci Flora GorgeousGardenia ", 420, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p1.jpg")); 
-products.Add(new CartItem(4, "A modern, warm, and sweet scent with jasmine and vanilla.Long - lasting and ideal for a stylish, confident look.", "Valentino Donna Born in Roma", 470, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p5.png")); 
-products.Add(new CartItem(5, "A delicious vanilla fragrance with a sugary, cozy finish.Perfect for lovers of sweet and comforting scents.", "Kayali Vanilla Candy RockSugar 42 ", 400, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p6.png")); 
-products.Add(new CartItem(6, "A fresh and soft floral perfume with a clean powdery touch.Simple, feminine, and suitable for daily use.", ".Miss Laverne ", 160, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p7.png")); 
-//////////
-//each panel taks a project 
+
+            products.Add(new CartItem(1, "A fresh and soft floral perfume with a clean powdery touch.Simple, feminine, and suitable for daily use.", "Miss Laverne ", 120, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p2.jpg"));
+            products.Add(new CartItem(2, "A modern, warm, and sweet scent with jasmine and vanilla. Long-lasting and ideal for a stylish, confident look", "Valentino Donna Born in Roma ", 420, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p4.png"));
+            products.Add(new CartItem(3, "A sweet and floral fragrance with gardenia and pear blossom. Light, youthful, and perfect for everyday wear ", "Gucci Flora Gorgeous Gardenia", 380, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p1.jpg"));
+            products.Add(new CartItem(4, "A delicious vanilla fragrance with a sugary, cozy finish. Perfect for lovers of sweet and comforting scents", " Kayali Vanilla Candy RockSugar", 350, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p5.png"));
+            products.Add(new CartItem(5, "A soft floral scent with a luxurious touch. Features jasmine and ylang-ylang for a smooth, feminine aroma that lasts all day", "DiorJ’adore ", 520, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p6.png"));
+            products.Add(new CartItem(6, "A fresh and elegant feminine perfume with light citrus notes and a warm, classy finish.Suitable for daily use and special occasions.", "ChanelCoco Mademoiselle", 480, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\p7.png"));
+            //////////
+            //each panel taks a project 
             pictureBox2.Tag = products[0]; // first product
             pictureBox1.Tag = products[1]; // second product
             pictureBox4.Tag = products[2];

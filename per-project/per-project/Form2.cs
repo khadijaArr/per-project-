@@ -32,10 +32,10 @@ namespace per_project
 
             
              products = new List<CartItem>();
-            products.Add(new CartItem(1, "A fresh and elegant feminine perfume with light citrus notes and a warm, classy finish.Suitable for daily use and special occasions.", "ChanelCoco Mademoiselle ",520, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png"));
-            products.Add(new CartItem(10, "A refined and elegant fragrance with citrus, wood, and incense notes.Clean, sophisticated, and suitable for professional or formal settings.", "Bleu de Chanel Eau de Parfum", 650, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
-            products.Add(new CartItem(7, "A warm, sweet, and masculine fragrance with vanilla and  amber notes.Perfect for evening wear and confident men who love long - lasting scents.",  "Emporio Armani Stronger With You Intensely ", 430, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
-            products.Add(new CartItem(4,"lasting and ideal for a stylish, confident look.", "Valentino Donna Born in Roma", 470, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\2.png"));
+            products.Add(new CartItem(3, "A sweet and floral fragrance with gardenia and pear blossom. Light, youthful, and perfect for everyday wear ", "Gucci Flora Gorgeous Gardenia", 380, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\4.png"));
+            products.Add(new CartItem(12, "A refined and elegant fragrance with citrus, wood, and incense notes.Clean, sophisticated, and suitable for professional or formal settings.", "Bleu de Chanel Eau de Parfum", 580, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\5.png"));
+            products.Add(new CartItem(8, "A warm, sweet, and masculine fragrance with vanilla and  amber notes.Perfect for evening wear and confident men who love long - lasting scents.",  "Emporio Armani Stronger With You Intensely ", 380, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm2.png"));
+            products.Add(new CartItem(2, "A modern, warm, and sweet scent with jasmine and vanilla. Long-lasting and ideal for a stylish, confident look", "Valentino Donna Born in Roma ", 420, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\Resources\2.png"));
             //////////
 
 
@@ -218,6 +218,21 @@ namespace per_project
         }
 
         private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }

@@ -25,16 +25,18 @@ namespace per_project
 
 
 
-            products.Add(new CartItem(7, "A warm, sweet, and masculine fragrance with vanilla and amber notes.Perfect for evening wear and confident men who love long - lasting scents.", "Emporio Armani Stronger With You Intensely ", 430, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm3.png"));
-            products.Add(new CartItem(8, "A fresh and bold fragrance combining mint, lemon, and woody notes.Strong, youthful, and perfect for daily wear or special occasions.", "Versace Eros ", 420, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\The 3 Valentino Perfumes the Internet Is Obsessed Withi.png"));
-            products.Add(new CartItem(9, "A powerful and iconic scent featuring bergamot and amber.Fresh, masculine, and extremely long - lasting—ideal for both day and night.", "Dior Sauvage Eau de Parfumv", 590, 0, @" C: \Users\ا\Desktop\per - project -\per - project\per - project\image1\pm1.png"));
-            products.Add(new CartItem(10, "A refined and elegant fragrance with citrus, wood, and incense notes.Clean, sophisticated, and suitable for professional or formal settings.", "Bleu de Chanel Eau de Parfum", 650, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm5.png"));
-            products.Add(new CartItem(11, "A warm, spicy scent with amber and patchouli. Smooth, modern, and perfect for night outings or colder weather.", " Prada Luna Rossa Black", 480, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm4.png"));
-            products.Add(new CartItem(12, "A timeless masculine fragrance with apple, cinnamon, and woody notes.Fresh and clean, suitable for everyday use and all ages.", " Hugo Boss Bottled", 280, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm6.png"));
+            products.Add(new CartItem(7, "A warm, sweet, and masculine fragrance with vanilla and amber notes.Perfect for evening wear and confident men who love long - lasting scents.", "Prada Luna Rossa Black ", 430, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm3.png"));
+            products.Add(new CartItem(8, "A warm, sweet, and masculine fragrance with vanilla and  amber notes.Perfect for evening wear and confident men who love long - lasting scents.", "Emporio Armani Stronger With You Intensely ", 380, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\The 3 Valentino Perfumes the Internet Is Obsessed Withi.png"));
+            products.Add(new CartItem(9, "A timeless masculine fragrance with apple, cinnamon, and woody notes. Fresh and clean, suitable for everyday use and all ages.", "Hugo Boss Bottled", 220, 0, @" C: \Users\ا\Desktop\per - project -\per - project\per - project\image1\pm1.png"));
+            products.Add(new CartItem(10, "A fresh and bold fragrance combining mint, lemon, and woody notes. Strong, youthful, and perfect for daily wear or special occasions.", "Versace Eros", 360, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm5.png"));
+            products.Add(new CartItem(11, "A powerful and iconic scent featuring bergamot and amber.Fresh, masculine, and extremely long - lasting—ideal for both day and night.", "Dior Sauvage Eau de Parfumv", 520, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm4.png"));
+            products.Add(new CartItem(12, "A refined and elegant fragrance with citrus, wood, and incense notes.Clean, sophisticated, and suitable for professional or formal settings.", "Bleu de Chanel Eau de Parfum", 580, 0, @"C:\Users\ا\Desktop\per-project-\per-project\per-project\image1\pm6.png"));
+            
+               
 
 
 
-       
+
 
 
             //each panel taks a project 
