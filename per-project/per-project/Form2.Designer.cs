@@ -237,7 +237,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(104, 29);
             this.label18.TabIndex = 57;
-            this.label18.Text = "500LDY";
+            this.label18.Text = "470LDY";
             this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label17
@@ -250,8 +250,9 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(104, 29);
             this.label17.TabIndex = 56;
-            this.label17.Text = "500LDY";
+            this.label17.Text = "430LDY";
             this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label16
             // 
@@ -263,7 +264,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(104, 29);
             this.label16.TabIndex = 55;
-            this.label16.Text = "500LDY";
+            this.label16.Text = "650LDY";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
@@ -277,7 +278,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(104, 29);
             this.label15.TabIndex = 54;
-            this.label15.Text = "500LDY";
+            this.label15.Text = "420LDY";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
